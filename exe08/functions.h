@@ -1,2 +1,2 @@
-
-int somar(int n1, int n2);
+int palindromo (char texto []);
+int teste(char txt[], int tam, int tamanho, int j);

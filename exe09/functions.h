@@ -1,2 +1,2 @@
-
-int somar(int n1, int n2);
+void placas(int m, int n);
+void placas_rec(char placar[], int m, int n, int pos);

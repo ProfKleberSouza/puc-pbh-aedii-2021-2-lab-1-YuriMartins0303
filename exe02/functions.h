@@ -1,2 +1,1 @@
-
-int somar(int n1, int n2);
+int Menor(int v[], int n);

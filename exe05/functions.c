@@ -1,7 +1,17 @@
-
 #include "functions.h"
+#include <string.h>
+#include <stdlib.h>
+#include <stdio.h>
+void  inverte ( char texto [100]){
+    char txt[100];
+    int tam = strlen(texto);
+    int i;
+  for(i = 0; i < 100; i++){
+    txt[i] = '\0'; 
+  }
+  for(i = 0; i < tam; i++){
+    txt[(tam-i-1)] = texto[i];
+  }
 
-int somar(int n1, int n2){
-
-    return n1+n2;
+    printf("%s", txt);
 }

@@ -1,2 +1,2 @@
-
-int somar(int n1, int n2);
+#include <stdlib.h>
+void  numero_vogais ( char texto []);
